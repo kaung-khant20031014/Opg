@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Dosis', sans-serif;
+    src: url(../font/Dosis-VariableFont_wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+}
+
+img{
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.06);
+}
+
+
+.title-color{
+    color: #ffffff;
+}
+.text-color{
+    color: #ffffff90 !important;
+}
+.rounded{
+    border-radius: 5px !important;
+}
+.btn{
+    padding: 9px 18px;
+    background-color: #1346FC;
+    border-radius: 5px;
+    border: 1.5px solid #1346FC;
+    color: #ffffff;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #FC5C7D;
+    border: 1.5px solid #FC5C7D;
+
+}
+.btn-outline{
+    padding: 9px 18px;
+    /* background-color: #1346FC; */
+    border-radius: 5px;
+    border: 1.5px solid #1346FC;
+    color: #ffffff;
+    transition: 0.5s;
+
+}
+.btn-outline:hover{
+    background-color: #FC5C7D;
+    border: 1.5px solid #FC5C7D;
+
+}
+
+/* header  */
+.header-home{
+    background: #FC5C7D2d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB2d, #FC5C7D2d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB2d, #FC5C7D2d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 8%;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+}
+.header{
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 8%;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p{
+    line-height: 24px;
+}
+input{
+    background-color: #ffffff57;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    padding: 9px 18px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    outline: none;
+
+}
+::placeholder{
+    color: #ffffff;
+    opacity: 1;
+}
+textarea{
+    background-color: #ffffff57;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    padding: 9px 18px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    outline: none;
+
+}
+.head-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-item{
+    list-style: none;
+    display: inline-block;
+
+}
+.head-item-item{
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+.l-h{
+    line-height: 24px;
+}
+
+
+
+/* home  */
+.home{
+    background-image: url(../images/nature.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 0 8%;
+}
+
+.home-box{
+    color: #ffffff;
+}
+.home-title{}
+.home-text{
+    width: 35%;
+    padding: 25px 0;
+}
+
+.home-btn{
+    margin-top: 15px;
+}
+
+/* container  */
+.container{
+    padding: 0 8%;
+    background: linear-gradient(to bottom, #040233, #1346FC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+}
+
+.container-box{}
+.box-about{
+    padding: 100px 0;
+}
+.box-about-item{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-about-item img{
+    width: 35%;
+
+}
+
+/* gallery  */
+.box-gallery{}
+.box-gallery-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.g-box{
+    width: 32%;
+    height: auto;
+}
+.g-box img{
+    width: 100%;
+}
+.g-box-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.g-update{
+    background-color: #1346FC;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.box-gallery-btn{
+    margin-top: 35px;
+    text-align: center;
+}
+
+/* contact  */
+.box-contact{}
+
+.box-contact-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* footer  */
+.footer{
+    background-color: #1900BF;
+    padding: 15px 8%;
+
+
+}
+.footer-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
