@@ -25,7 +25,23 @@ img:hover{
     transform: scale(1.06);
 }
 
-
+.down{
+    transition: 0.5s;
+    position: relative;
+}
+.down::after{
+    content: "";
+    border: 10px solid #ffffff00;
+    border-top-color: #FC5C7D;
+    border-radius: 5px;
+    position: absolute;
+    bottom:-150px;
+    right: 535px;
+    cursor: pointer;
+}
+.down:hover{
+    transform: translateY(10px);
+}
 .title-color{
     color: #ffffff;
 }
@@ -73,6 +89,7 @@ img:hover{
     backdrop-filter: blur(20px);
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .header{
     background: #FC5C7D;  /* fallback for old browsers */
@@ -124,6 +141,7 @@ textarea{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 .head-item{
     list-style: none;
