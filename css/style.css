@@ -282,7 +282,7 @@ textarea{
 @media screen and (max-width: 2000px) {
     
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
     .box-about-item{
         margin-top: 60px;
         display: block;
@@ -317,6 +317,16 @@ textarea{
         /* align-items: center;
         justify-content: space-around; */
         margin-top: 60px;
+    }
+    .down::after{
+        content: "";
+        border: 10px solid #ffffff00;
+        border-top-color: #FC5C7D;
+        border-radius: 5px;
+        position: absolute;
+        bottom:-240px;
+        right: 300px;
+        cursor: pointer;
     }
 }
 @media screen and (max-width: 580px) {
@@ -388,6 +398,16 @@ textarea{
     
     .footer-item{
         display: block;
+    }
+    .down::after{
+        content: "";
+        border: 10px solid #ffffff00;
+        border-top-color: #FC5C7D;
+        border-radius: 5px;
+        position: absolute;
+        bottom:-150px;
+        right: 145px;
+        cursor: pointer;
     }
 
 }
