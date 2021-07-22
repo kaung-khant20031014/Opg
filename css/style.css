@@ -99,6 +99,7 @@ img:hover{
     backdrop-filter: blur(20px);
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 a{
